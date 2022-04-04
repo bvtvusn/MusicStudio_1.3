@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<Instrument xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <adjusterObjects>
+    <Adjuster xsi:type="Envelope">
+      <AdjusterPointer>0</AdjusterPointer>
+      <Attack>0.1</Attack>
+      <Decay>0.1</Decay>
+      <Release>0.1</Release>
+      <Sustain>1</Sustain>
+    </Adjuster>
+  </adjusterObjects>
+  <effectObjects>
+    <SoundEffect xsi:type="Eff_Reverb_0">
+      <Pitch>0</Pitch>
+      <AdjusterPointer>0</AdjusterPointer>
+    </SoundEffect>
+  </effectObjects>
+  <Name>testinst</Name>
+</Instrument>
